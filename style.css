@@ -1,0 +1,76 @@
+/* Body ayarları */
+body {
+    background-color: #fafafa;
+    padding-top: 85px; 
+}
+
+nav.navbar {
+    height: 54px;
+    z-index: 1000;
+}
+
+.logo-margin {
+    margin-left: 540px;
+}
+
+.icon-menu a {
+    color: #333;
+    font-size: 20px;
+    transition: 0.4s ease;
+}
+
+.icon-menu a:hover {
+    color: #6c0975;
+
+}
+
+
+.search-input {
+    text-align:center;
+    background-color: #fafafa;
+    border: 2px solid #3f3e3e;
+    border-radius: 2px;
+    height: 27px;
+    font-size: 14px;
+    width: 214px;
+}
+
+/* Placeholder İkonu */
+.search-input::placeholder {
+    background-image: url('https://cdn-icons-png.flaticon.com/512/54/54481.png'); 
+    background-repeat: no-repeat;
+    background-size: 10px;
+    background-position: 70px center;
+    text-align: center;
+    color: #1a1919;
+    font-size: 14px;
+}
+
+.search-container {
+    position: absolute; 
+    left:53%;       
+    transform: translateX(-50%); 
+    text-align: center;
+}
+
+/* Sticky Ayarları */
+.stickysidebar {
+    position: fixed;
+    top: 84px;
+    left:60%; 
+    width: 290px;
+}
+
+.rightpanel {
+    background-color: transparent;
+    border: none;
+}
+
+.card-header, .card-footer {
+    background-color: #fff !important;
+}
+
+a {
+    text-decoration: none !important;
+}
+
